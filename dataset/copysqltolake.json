@@ -1,0 +1,12 @@
+{
+	"name": "copysqltolake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls sql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
