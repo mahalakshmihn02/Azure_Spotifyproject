@@ -9,7 +9,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@pipeline().parameters.Loopinput",
+						"value": "@pipeline().parameters.loopinput",
 						"type": "Expression"
 					},
 					"isSequential": true,
@@ -343,7 +343,7 @@
 			}
 		],
 		"parameters": {
-			"Loopinput": {
+			"loopinput": {
 				"type": "array",
 				"defaultValue": [
 					{
@@ -373,7 +373,7 @@
 					{
 						"schema": "dbo",
 						"table": "FactStream",
-						"cdccol": "streamtimestamp",
+						"cdccol": "stream_timestamp",
 						"fromdate": ""
 					}
 				]
